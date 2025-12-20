@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アストーク - 明日話せるトピックを、英語で</title>
+    <meta name="description" content="明日話せるトピックを、英語で。日本語で話した内容をAIが英語に翻訳し、文ごとに練習できる英語スピーキングアプリ。">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/icon.png" alt="アストーク" class="logo-icon">
+                    <span class="logo-text">アストーク</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">機能</a>
+                    <a href="#how-it-works">使い方</a>
+                    <a href="#screenshots">スクリーンショット</a>
+                    <a href="#download" class="btn btn-nav">ダウンロード</a>
+                </div>
+                <button class="mobile-menu-btn" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1><span class="nowrap">明日話せるトピックを、</span><br><span class="highlight">英語</span>で。</h1>
+                <p class="hero-subtitle">あなたの言葉が、自然な英語に変わる。<br>日本語で話した内容をAIが翻訳し、一文ずつ発音練習できる新感覚アプリ。</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <svg width="20" height="24" viewBox="0 0 20 24" fill="currentColor">
+                            <path d="M17.5 12.5c0-3.07 2.5-4.07 2.5-4.07s-1.38-1.97-3.44-2.16c-1.47-.15-2.87.87-3.62.87-.76 0-1.93-.85-3.16-.82-1.63.03-3.13.95-3.97 2.41-1.69 2.93-.43 7.28 1.22 9.66.81 1.17 1.77 2.48 3.03 2.43 1.22-.05 1.68-.79 3.15-.79s1.88.79 3.16.76c1.31-.02 2.14-1.19 2.94-2.36.93-1.35 1.31-2.66 1.33-2.73-.03-.01-2.55-1-2.58-3.92" />
+                        </svg>
+                        App Store
+                    </a>
+                    <a href="#download" class="btn btn-secondary">
+                        <svg width="20" height="22" viewBox="0 0 20 22" fill="currentColor">
+                            <path d="M1 1l10 10L1 21V1zm11 10l8-10H4l7 10zm0 0l7 10H4l7-10z" />
+                        </svg>
+                        Google Play
+                    </a>
+                </div>
+                <p class="hero-note">近日公開予定</p>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <img src="images/home-screen.png" alt="AsTalk ホーム画面">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2>こんな悩み、ありませんか？</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                            <path d="M12 17h.01"/>
+                            <circle cx="12" cy="12" r="10"/>
+                        </svg>
+                    </div>
+                    <p>言いたいことが<br>英語で出てこない</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>
+                            <path d="M8 11h8"/>
+                            <path d="M8 7h6"/>
+                        </svg>
+                    </div>
+                    <p>教材の例文は<br>実際に使わない</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <p>自分のことを<br>英語で話したい</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <p>忙しくて<br>続かない</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <div class="solution-content">
+                <h2>アストークなら、<br><span class="highlight">あなたの言葉</span>で練習できる</h2>
+                <p><span class="nowrap">日本語で自由に話すだけ。AIがあなたの言葉を自然な英語に翻訳し、文ごとに練習できます。</span><br>自分が本当に言いたいことを英語で言えるようになる、それがアストークです。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>かんたん3ステップ</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-image">
+                        <img src="images/record-japanese-screen.png" alt="日本語で話す">
+                    </div>
+                    <h3>日本語で話す</h3>
+                    <p>テーマを選んで、日本語で自由に話すだけ。考えをそのまま言葉にしてください。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-image">
+                        <img src="images/review-draft-screen.png" alt="AIが英訳">
+                    </div>
+                    <h3>AIが英訳</h3>
+                    <p>あなたの日本語をAIが自然な英語に翻訳。ネイティブが使う表現で英文が完成します。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-image">
+                        <img src="images/sentence-practice-screen.png" alt="文ごとに練習">
+                    </div>
+                    <h3>文ごとに練習</h3>
+                    <p>お手本音声を聞いて、一文ずつ発音練習。AIがあなたの発音をチェックしてフィードバック。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>充実の機能</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/sentence-practice-feedback-screen.png" alt="詳細フィードバック">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                            詳細フィードバック
+                        </h3>
+                        <p>発音・文法・表現の改善点をAIがリアルタイムでフィードバック。具体的なアドバイスで上達を実感できます。</p>
+                    </div>
+                </div>
+                <div class="feature-card reverse">
+                    <div class="feature-image">
+                        <img src="images/full-sentence-practice-screen.png" alt="フルスピーチ練習">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                                <line x1="12" x2="12" y1="19" y2="22"/>
+                            </svg>
+                            フルスピーチ練習
+                        </h3>
+                        <p>文ごとの練習が終わったら、全体を通してスピーチ。本番さながらの練習で自信をつけましょう。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/progress-screen.png" alt="進捗管理">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M3 3v16a2 2 0 0 0 2 2h16"/>
+                                <path d="m19 9-5 5-4-4-3 3"/>
+                            </svg>
+                            進捗管理
+                        </h3>
+                        <p>練習の成果を可視化。スコアの推移や練習回数をグラフで確認できます。</p>
+                    </div>
+                </div>
+                <div class="feature-card reverse">
+                    <div class="feature-image">
+                        <img src="images/expressions-screen.png" alt="表現集">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M12 7v14"/>
+                                <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>
+                            </svg>
+                            表現集
+                        </h3>
+                        <p>練習で学んだキーフレーズを自動保存。いつでも復習できる自分だけの表現集が作れます。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/gacha-screen.png" alt="テーマガチャ">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <rect width="12" height="12" x="2" y="10" rx="2" ry="2"/>
+                                <path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/>
+                                <path d="M6 18h.01"/>
+                                <path d="M10 14h.01"/>
+                                <path d="M15 6h.01"/>
+                                <path d="M18 9h.01"/>
+                            </svg>
+                            テーマガチャ
+                        </h3>
+                        <p>何を話せばいいかわからない？ガチャでランダムにテーマを選択。思わぬトピックで新しい表現を学べます。</p>
+                    </div>
+                </div>
+                <div class="feature-card reverse">
+                    <div class="feature-image">
+                        <img src="images/community-screen.png" alt="コミュニティ">
+                    </div>
+                    <div class="feature-content">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                            コミュニティ
+                        </h3>
+                        <p>他のユーザーの練習を参考に。良い表現を見つけたら保存して自分の学習に活用できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Gallery -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2>スクリーンショット</h2>
+            <div class="screenshot-gallery">
+                <div class="screenshot-item">
+                    <img src="images/home-screen.png" alt="ホーム画面">
+                    <p>ホーム</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/sentence-practice-feedback-screen-2.png" alt="フィードバック">
+                    <p>フィードバック</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/full-sentence-practice-feedback-screen.png" alt="スピーチ結果">
+                    <p>スピーチ結果</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/history-screen.png" alt="履歴">
+                    <p>練習履歴</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/tips-screen.png" alt="ヒント">
+                    <p>学習ヒント</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/gacha-result-screen.png" alt="ガチャ結果">
+                    <p>ガチャ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>アストークで変わる、あなたの英語</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9"/>
+                            <path d="M20 3v4"/>
+                            <path d="M22 5h-4"/>
+                        </svg>
+                    </div>
+                    <h3>自分の言葉で練習</h3>
+                    <p>教材の例文ではなく、自分が実際に使いたい表現を英語で言えるようになります。</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>効率的な学習</h3>
+                    <p>AIによる即座のフィードバックで、間違いをすぐに修正。上達が早くなります。</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                            <path d="M22 10a4.5 4.5 0 0 0-4.5-4.5"/>
+                        </svg>
+                    </div>
+                    <h3>続けやすい</h3>
+                    <p>1回の練習は数分から。スキマ時間にサッと練習できるから、習慣化しやすい。</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            <path d="M8 10h.01"/>
+                            <path d="M12 10h.01"/>
+                            <path d="M16 10h.01"/>
+                        </svg>
+                    </div>
+                    <h3>実践的な英語力</h3>
+                    <p>スピーキングに特化した練習で、会話で使える実践的な英語力が身につきます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="cta">
+        <div class="container">
+            <h2>今すぐ始めよう</h2>
+            <p>あなたの言葉で、英語を学ぶ新しい体験を。</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary btn-large">
+                    <svg width="24" height="28" viewBox="0 0 20 24" fill="currentColor">
+                        <path d="M17.5 12.5c0-3.07 2.5-4.07 2.5-4.07s-1.38-1.97-3.44-2.16c-1.47-.15-2.87.87-3.62.87-.76 0-1.93-.85-3.16-.82-1.63.03-3.13.95-3.97 2.41-1.69 2.93-.43 7.28 1.22 9.66.81 1.17 1.77 2.48 3.03 2.43 1.22-.05 1.68-.79 3.15-.79s1.88.79 3.16.76c1.31-.02 2.14-1.19 2.94-2.36.93-1.35 1.31-2.66 1.33-2.73-.03-.01-2.55-1-2.58-3.92" />
+                    </svg>
+                    App Storeからダウンロード
+                </a>
+                <a href="#" class="btn btn-secondary btn-large">
+                    <svg width="24" height="26" viewBox="0 0 20 22" fill="currentColor">
+                        <path d="M1 1l10 10L1 21V1zm11 10l8-10H4l7 10zm0 0l7 10H4l7-10z" />
+                    </svg>
+                    Google Playで入手
+                </a>
+            </div>
+            <p class="cta-note">近日公開予定</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="images/icon.png" alt="アストーク" class="logo-icon">
+                        <span class="logo-text">アストーク</span>
+                    </div>
+                    <p>明日話せるトピックを、英語で。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>アプリ</h4>
+                        <a href="#features">機能</a>
+                        <a href="#how-it-works">使い方</a>
+                        <a href="#screenshots">スクリーンショット</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>サポート</h4>
+                        <a href="#">お問い合わせ</a>
+                        <a href="#">よくある質問</a>
+                        <a href="#">ヘルプセンター</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>法的情報</h4>
+                        <a href="#">利用規約</a>
+                        <a href="#">プライバシーポリシー</a>
+                        <a href="#">特定商取引法に基づく表記</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 アストーク. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
