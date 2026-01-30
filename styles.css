@@ -556,6 +556,51 @@ h3 {
     line-height: 1.7;
 }
 
+/* ===== Support Section ===== */
+.support {
+    padding: 80px 0;
+    background: white;
+    text-align: center;
+}
+
+.support h2 {
+    margin-bottom: 20px;
+}
+
+.support > .container > p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 30px;
+}
+
+.support-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.support-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    background: var(--bg-light);
+    border-radius: var(--radius-lg);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.support-email:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.support-email svg {
+    width: 24px;
+    height: 24px;
+}
+
 /* ===== CTA Section ===== */
 .cta {
     padding: 120px 0;
